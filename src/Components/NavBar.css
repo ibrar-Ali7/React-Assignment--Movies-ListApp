@@ -53,3 +53,50 @@ h2{
     display: flex;
     align-items: center;
 }
+.filters{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    color: #f9f9f9;
+    font-weight: 600;
+    font-family: sans-serif;
+    margin-top: 30px;
+    margin-bottom: 20px;
+
+}
+#sort-by{
+    border-radius: 20px;
+    font-weight: 200px;
+    margin-left: 10px;
+    margin-right: 10px;
+    outline: none;
+    color: #333;
+    padding: 5px 5px;
+    font-size: 12px;
+}
+.gere{
+    border-radius: 20px;
+    font-weight: 200px;
+    margin-left: 10px;
+    margin-right: 10px;
+    outline: none;
+    color: #333;
+    padding: 5px 5px;
+    font-size: 12px;
+}
+.movie-wrapper{
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    gap: 20px;
+    padding: 50px 50px;
+    
+}
+.movie{
+    background-color: #f9f9f9;
+    padding: 20px;
+    height: max-content;
+    border-radius: 20px;
+    box-shadow:0 4px 6px #333;
+    
+}
